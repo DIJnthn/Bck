@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495290529369",
+    "project_id": "validators-e169b",
+    "storage_bucket": "validators-e169b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495290529369:android:428e5ac493c7e038b5a348",
+        "android_client_info": {
+          "package_name": "com.example.validators"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFJAGn5jOOhcqp7c6PEiKhbLw23dSpEpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

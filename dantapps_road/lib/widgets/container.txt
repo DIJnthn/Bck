@@ -1,0 +1,41 @@
+Center(
+        child: Container(
+          width: 200,
+          height: 265,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(15),
+            boxShadow: const [
+              BoxShadow(
+                  color: Colors.black,
+                  spreadRadius: 3,
+                  blurRadius: 10,
+                  offset: Offset(0, 3))
+            ],
+          ),
+          child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Column(
+                children: [
+                  Container(
+                    alignment: Alignment.center,
+                    child: Image.asset(
+                      "C:/projetos/dantapps/lib/assets/image-removebg-preview.png",
+                      height: 150,
+                    ),
+                  ),
+                  const Text(
+                    textAlign: TextAlign.center,
+                    'Arroz Vô Olimpio 1Kg Parboilizado',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 6),
+                  const Text(
+                    textAlign: TextAlign.center,
+                    'R\$ 4,99',
+                    style: TextStyle(fontSize: 15),
+                  )
+                ],
+              )),
+        ),
+      ),
